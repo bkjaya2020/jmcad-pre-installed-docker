@@ -17,7 +17,6 @@ RUN apt install -y xfce4-terminal \
     && apt -y autoremove
 COPY JMCAD-09.157.zip /JMCAD-09.157.zip
 RUN unzip /JMCAD-09.157.zip
-RUN rm /JMCAD-09.157.zip 
 RUN chmod +x /JMCAD-09.157/JMCAD.jar
 COPY bash.bashrc /etc/bash.bashrc
 COPY jmcad.sh /usr/bin/jmcad.sh
