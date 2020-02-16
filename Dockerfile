@@ -14,10 +14,11 @@ RUN apt install -y xfce4-terminal \
     && apt install -y tzdata \
     && apt install -y vim \
     && apt install -y default-jdk \
+    && apt install -y unzip \
     && apt -y autoremove
-COPY JMCAD-09.157.zip /JMCAD-09.157.zip
-RUN unzip /JMCAD-09.157.zip
-RUN chmod +x /JMCAD-09.157/JMCAD.jar
+COPY jmcad.zip /jmcad.zip
+RUN unzip /jmcad.zip
+RUN rm /jmcad.zip
 COPY bash.bashrc /etc/bash.bashrc
 COPY jmcad.sh /usr/bin/jmcad.sh
 RUN chmod 777 /usr/bin/jmcad.sh
