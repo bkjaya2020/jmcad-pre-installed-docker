@@ -34,10 +34,7 @@ If you want to get the jmcad desktop after closing it please follow the followin
 
 On the desktop, right click the mouse to get the fluxbox menu
 
-<img src="https://raw.githubusercontent.com/bkjaya2020/jmcad-docker/master/menu1.png?token=ANVLIGYLOMERR4AEAU26X2K6KDZ5O" alt="https://raw.githubusercontent.com/bkjaya2020/jmcad-docker/master/menu1.png?token=ANVLIGYLOMERR4AEAU26X2K6KDZ5O" width="625" height="520">
 
-
-<img src="https://raw.githubusercontent.com/bkjaya2020/jmcad-docker/master/menu2.png?token=ANVLIG42TPHNYDMMCDLMOS26KDZG6" alt="https://raw.githubusercontent.com/bkjaya2020/jmcad-docker/master/menu2.png?token=ANVLIG42TPHNYDMMCDLMOS26KDZG6" width="625" height="520">
 
 To get the jamcad panel
 
