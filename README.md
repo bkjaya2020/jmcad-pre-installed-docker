@@ -28,5 +28,35 @@ Then the jmcad desktop will appear on the web browser at the startup.
 
 <img src="https://raw.githubusercontent.com/bkjaya2020/jmcad-docker/master/Screenshot%20from%202020-02-17%2008-42-11.png?token=ANVLIGYXLADHQJMPQOENAKK6KDYJO" alt="https://raw.githubusercontent.com/https://raw.githubusercontent.com/bkjaya2020/jmcad-docker/master/Screenshot%20from%202020-02-17%2008-42-11.png?token=ANVLIGYXLADHQJMPQOENAKK6KDYJO" width="625" height="520">
 
+If you want to get the jmcad desktop after closing it please follow the following steps
+
+On the desktop, right click the mouse to get the fluxbox menu
 
 
+
+<img src="https://raw.githubusercontent.com/bkjaya2020/jmcad-docker/master/menu1.png?token=ANVLIGZQHUQMDCDHHJXEYQS6KDZAW" alt="https://raw.githubusercontent.com/bkjaya2020/jmcad-docker/master/menu1.png?token=ANVLIGZQHUQMDCDHHJXEYQS6KDZAW" width="625" height="520">
+
+
+<img src="https://raw.githubusercontent.com/bkjaya2020/jmcad-docker/master/menu2.png?token=ANVLIG42TPHNYDMMCDLMOS26KDZG6" alt="https://raw.githubusercontent.com/bkjaya2020/jmcad-docker/master/menu2.png?token=ANVLIG42TPHNYDMMCDLMOS26KDZG6" width="625" height="520">
+
+To get the jamcad panel
+
+On the menu go to sub menus and ckick Applications>Shells>Bash
+
+There is an enother option
+
+On The menu go to sub menus and click Applications>Programming>Monodoc(http)
+
+How to change the timezone
+
+After quitting the jmcad
+
+On the terminal enter
+
+vim /etc/timezone
+
+Then the timezone file is opened
+
+Go to the top line of the file , press insert key on your key board and enter your timezone ( ie Asia/Colombo)
+
+Then press the Esc key and Shift :x to save & quit the file
