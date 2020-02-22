@@ -12,13 +12,13 @@ Thanks to Yuriy Mikhaylovskiy owner of JMCAD    YuriyMikhaylovskiy@yahoo.com    
 
 Thanks to  Kyle Anderson and Nicolas SAPA 
 
-To create a smath container (name jmcad) using bkjaya1952/jmcad-docker
+To create a smath container (name jmcad) using bkjaya1952/jmcad-pre-installed-docker
 
-Refer:- https://hub.docker.com/r/bkjaya1952/jmcad-docker
+Refer:- https://hub.docker.com/r/bkjaya1952/jmcad-pre-installed-docker
 
 On the Ubuntu terminal
 
-sudo docker create -t -p 8228:8080 --name smath bkjaya1952/jmcad-docker
+sudo docker create -t -p 8228:8080 --name smath bkjaya1952/jmcad-pre-installed-docker
 
 sudo docker start jmcad
 
