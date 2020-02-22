@@ -1,10 +1,10 @@
-#############################################################################################
-# docker image  bkjaya1952/jmcad                                                            #
-# forked from Kyle Anderson's  solarkennedy/wine-x11-novnc-docker                           #
-# JMCAD from https://sourceforge.net/projects/jmcad/                                        #               
-# Thanks to Yuriy Mikhaylovskiy owner of JMCAD    YuriyMikhaylovskiy@yahoo.com              #     
-# Thanks to  Kyle Anderson and Nicolas SAPA                                                 #
-#############################################################################################
+########################################################################################################
+# docker image  bkjaya1952/jmcad                                                                       #
+# forked from Kyle Anderson's  solarkennedy/wine-x11-novnc-docker                                      #
+# JMCAD from https://sourceforge.net/projects/jmcad/files/JMCAD/JMCAD-09.157/JMCAD-09.157.zip/download #                                       #               
+# Thanks to Yuriy Mikhaylovskiy owner of JMCAD    YuriyMikhaylovskiy@yahoo.com                         #     
+# Thanks to  Kyle Anderson and Nicolas SAPA                                                            #
+########################################################################################################
 
 FROM  solarkennedy/wine-x11-novnc-docker 
 MAINTAINER B.K.Jayasundera
