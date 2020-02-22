@@ -26,7 +26,7 @@ xdg-open http://localhost:8228
 
 Then the jmcad desktop will appear on the web browser at the startup.
 
-<img src="https://raw.githubusercontent.com/bkjaya2020/jmcad-docker/master/Screenshot%20from%202020-02-17%2008-42-11.png?token=ANVLIGYXLADHQJMPQOENAKK6KDYJO" alt="https://raw.githubusercontent.com/https://raw.githubusercontent.com/bkjaya2020/jmcad-docker/master/Screenshot%20from%202020-02-17%2008-42-11.png?token=ANVLIGYXLADHQJMPQOENAKK6KDYJO" width="625" height="520">
+<img src="https://raw.githubusercontent.com/bkjaya2020/jmcad-docker/master/menu1.png?token=ANVLIGZQHUQMDCDHHJXEYQS6KDZAW" alt="https://raw.githubusercontent.com/bkjaya2020/jmcad-docker/master/menu1.png?token=ANVLIGZQHUQMDCDHHJXEYQS6KDZAW" width="625" height="520">
 
 If you want to get the jmcad desktop after closing it please follow the following steps
 
@@ -34,7 +34,7 @@ On the desktop, right click the mouse to get the fluxbox menu
 
 
 
-<img src="https://raw.githubusercontent.com/bkjaya2020/jmcad-docker/master/menu1.png?token=ANVLIGZQHUQMDCDHHJXEYQS6KDZAW" alt="https://raw.githubusercontent.com/bkjaya2020/jmcad-docker/master/menu1.png?token=ANVLIGZQHUQMDCDHHJXEYQS6KDZAW" width="625" height="520">
+<img src="https://raw.githubusercontent.com/bkjaya2020/jmcad-docker/master/Screenshot%20from%202020-02-17%2008-42-11.png?token=ANVLIG53XRS3GDK2OV43YA26KDZS6" alt="https://raw.githubusercontent.com/bkjaya2020/jmcad-docker/master/Screenshot%20from%202020-02-17%2008-42-11.png?token=ANVLIG53XRS3GDK2OV43YA26KDZS6" width="625" height="520">
 
 
 <img src="https://raw.githubusercontent.com/bkjaya2020/jmcad-docker/master/menu2.png?token=ANVLIG42TPHNYDMMCDLMOS26KDZG6" alt="https://raw.githubusercontent.com/bkjaya2020/jmcad-docker/master/menu2.png?token=ANVLIG42TPHNYDMMCDLMOS26KDZG6" width="625" height="520">
