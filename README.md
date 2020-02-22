@@ -18,11 +18,11 @@ Refer:- https://hub.docker.com/r/bkjaya1952/jmcad-pre-installed-docker
 
 On the Ubuntu terminal
 
-sudo docker create -t -p 8228:8080 --name jmcad bkjaya1952/jmcad-pre-installed-docker
+<code>sudo docker create -t -p 8228:8080 --name jmcad --privileged=true bkjaya1952/jmcad-pre-installed-docker
 
 sudo docker start jmcad
 
-xdg-open http://localhost:8228
+xdg-open http://localhost:8228</code>
 
 Then the jmcad desktop will appear on the web browser at the startup.
 
@@ -41,10 +41,6 @@ On the desktop, right click the mouse to get the fluxbox menu
 
 
 
-
-
-
-
 To get the jamcad panel
 
 On the menu go to sub menus and ckick Applications>Shells>Bash
@@ -59,7 +55,7 @@ After quitting the jmcad
 
 On the terminal enter
 
-vim /etc/timezone
+<code>vim /etc/timezone</code>
 
 Then the timezone file is opened
 
