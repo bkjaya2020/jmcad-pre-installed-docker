@@ -1,5 +1,5 @@
 ########################################################################################################
-# docker image  bkjaya1952/jmcad                                                                       #
+# docker image  bkjaya1952/jmcad - pre-installed with JMCAD-09.157.                                    #
 # forked from Kyle Anderson's  solarkennedy/wine-x11-novnc-docker                                      #
 # JMCAD from https://sourceforge.net/projects/jmcad/files/JMCAD/JMCAD-09.157/JMCAD-09.157.zip/download #                                       #               
 # Thanks to Yuriy Mikhaylovskiy owner of JMCAD    YuriyMikhaylovskiy@yahoo.com                         #     
