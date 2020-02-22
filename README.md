@@ -26,6 +26,11 @@ xdg-open http://localhost:8228
 
 Then the jmcad desktop will appear on the web browser at the startup.
 
+<img src="https://github.com/bkjaya2020/jmcad-docker/blob/master/menu2.png" alt="https://raw.githubusercontent.com/bkjaya2020/jmcad-docker/master/menu1.png?token=ANVLIGYE45UMKPEDSMB4JRK6KD2VU" class="shrinkToFit" width="625" height="520">
+
+
+<img src="https://github.com/bkjaya2020/jmcad-docker/blob/master/menu2.png" alt="https://github.com/bkjaya2020/jmcad-docker/blob/master/menu2.png" class="shrinkToFit" width="625" height="520">
+
 
 
 
