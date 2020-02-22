@@ -1,29 +1,35 @@
 #############################################################################################
 # docker image  bkjaya1952/jmcad                                                            #
 # forked from Kyle Anderson's  solarkennedy/wine-x11-novnc-docker                           #
-# JMCAD from https://sourceforge.net/projects/jmcad/                                        #
-# Thanks to  Kyle Anderson and Nicolas SAPA  !                                              #
-# Thanks to JMCAD developers                                                                #
+# JMCAD from https://sourceforge.net/projects/jmcad/                                        #               
+# Thanks to Yuriy Mikhaylovskiy owner of JMCAD    YuriyMikhaylovskiy@yahoo.com              #     
+# Thanks to  Kyle Anderson and Nicolas SAPA                                                 #
 #############################################################################################
+
 FROM  solarkennedy/wine-x11-novnc-docker 
 MAINTAINER B.K.Jayasundera
+
 ENV HOME /root
 ENV DEBIAN_FRONTEND noninteractive
-RUN apt update 
-RUN apt install -y xfce4-terminal \
+
+RUN apt purge -y winehq-stable \
+    && apt autoremove --assume-yes
+RUN rm -rf /opt/wine-stable/share/wine/mono \
+    && rm -rf /opt/wine-stable/share/wine/gecko
+RUN apt update \ 
+    && apt install -y xfce4-terminal \
     && apt install -y tzdata \
-    && apt install -y vim \
     && apt install -y default-jdk \
     && apt install -y unzip \
     && apt -y autoremove
+ADD supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+   
 COPY jmcad.zip /jmcad.zip
-RUN unzip /jmcad.zip
-RUN rm /jmcad.zip
+RUN unzip /jmcad.zip \
+    && rm /jmcad.zip
 COPY bash.bashrc /etc/bash.bashrc
 COPY jmcad.sh /usr/bin/jmcad.sh
-RUN chmod 777 /usr/bin/jmcad.sh
-RUN unlink /etc/localtime
+RUN chmod 777 /usr/bin/jmcad.sh \
+    && unlink /etc/localtime
 EXPOSE 8080
 CMD ["/usr/bin/supervisord"]
-
-
