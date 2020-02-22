@@ -18,7 +18,7 @@ Refer:- https://hub.docker.com/r/bkjaya1952/jmcad-pre-installed-docker
 
 On the Ubuntu terminal
 
-sudo docker create -t -p 8228:8080 --name smath bkjaya1952/jmcad-pre-installed-docker
+sudo docker create -t -p 8228:8080 --name jmcad bkjaya1952/jmcad-pre-installed-docker
 
 sudo docker start jmcad
 
