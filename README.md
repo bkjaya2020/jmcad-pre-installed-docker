@@ -1,4 +1,16 @@
 # A docker image pre-installed jmcad based on solarkennedy/wine-x11-novnc-docker
+JMCAD is an program for the modeling and simulation of complex dynamic systems. This includes the ability to construct and simulate block diagrams. The visual block diagram interface offers a simple method for constructing, modifying and maintaining complex system models. The simulation engine provides fast and accurate solutions for linear, nonlinear, continuous time, discrete time, time varying and hybrid system designs. With JMCAD, users can quickly develop software or "virtual" prototypes of systems or processes to demonstrate their behavior prior to building physical prototypes. 
+
+Please refer the following link of the JMCD developers for further details of JMCAD software
+
+http://jmcad.sourceforge.net/index_us.shtml
+
+I thought of creating a docker image of pre-installed JMCAD software wich can be used in easyly without interfering the 
+default setup of Linux PC .
+
+I found a wonderful docker repositoy "solarkennedy/wine-x11-novnc-docker" creared by Kyle Anderson which is ideal for use as a base for application software in docker platform. Threrefore , I have forked solarkennedy/wine-x11-novnc-docker to create my bkjaya1952/jmcad-pre-installed-docker
+
+
 A docker image pre-installed jmcad based on solarkennedy/wine-x11-novnc-docker
 
 
