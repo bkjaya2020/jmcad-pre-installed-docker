@@ -1,11 +1,10 @@
 ########################################################################################################
 # docker image  bkjaya1952/jmcad - pre-installed with JMCAD-09.157.                                    #
 # forked from Kyle Anderson's  solarkennedy/wine-x11-novnc-docker                                      #
-# JMCAD from https://sourceforge.net/projects/jmcad/files/JMCAD/JMCAD-09.157/JMCAD-09.157.zip/download #                                       #               
-# Thanks to Yuriy Mikhaylovskiy owner of JMCAD    YuriyMikhaylovskiy@yahoo.com                         #     
+# JMCAD from https://sourceforge.net/projects/jmcad/files/JMCAD/JMCAD-09.157/JMCAD-09.157.zip/download #
+# Thanks to Yuriy Mikhaylovskiy owner of JMCAD    YuriyMikhaylovskiy@yahoo.com                         #
 # Thanks to  Kyle Anderson and Nicolas SAPA                                                            #
 ########################################################################################################
-
 FROM  solarkennedy/wine-x11-novnc-docker 
 MAINTAINER B.K.Jayasundera
 
@@ -17,16 +16,15 @@ RUN apt purge -y winehq-stable \
 RUN rm -rf /opt/wine-stable/share/wine/mono \
     && rm -rf /opt/wine-stable/share/wine/gecko
 RUN apt update \ 
-    && apt install -y xfce4-terminal \
-    && apt install -y tzdata \
-    && apt install -y default-jdk \
-    && apt install -y unzip \
+    && apt install -y --no-install-recommends xfce4-terminal tzdata default-jdk unzip \    
+    && rm -rf /var/lib/apt/lists/* \ 
     && apt -y autoremove
 ADD supervisord.conf /etc/supervisor/conf.d/supervisord.conf
    
 COPY jmcad.zip /jmcad.zip
 RUN unzip /jmcad.zip \
-    && rm /jmcad.zip
+    && rm /jmcad.zip \
+    && apt -y purge unzip
 COPY bash.bashrc /etc/bash.bashrc
 COPY jmcad.sh /usr/bin/jmcad.sh
 RUN chmod 777 /usr/bin/jmcad.sh \
