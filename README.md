@@ -1,5 +1,5 @@
 # A docker image pre-installed jmcad based on solarkennedy/wine-x11-novnc-docker
-JMCAD is an program for the modeling and simulation of complex dynamic systems. This includes the ability to construct and simulate block diagrams. The visual block diagram interface offers a simple method for constructing, modifying and maintaining complex system models. The simulation engine provides fast and accurate solutions for linear, nonlinear, continuous time, discrete time, time varying and hybrid system designs. With JMCAD, users can quickly develop software or "virtual" prototypes of systems or processes to demonstrate their behavior prior to building physical prototypes. 
+JMCAD is a program for the modeling and simulation of complex dynamic systems. This includes the ability to construct and simulate block diagrams. The visual block diagram interface offers a simple method for constructing, modifying and maintaining complex system models. The simulation engine provides fast and accurate solutions for linear, nonlinear, continuous time, discrete time, time varying and hybrid system designs. With JMCAD, users can quickly develop software or "virtual" prototypes of systems or processes to demonstrate their behavior prior to building physical prototypes. 
 
 Please refer the following link of the JMCD developers for further details of JMCAD software
 
