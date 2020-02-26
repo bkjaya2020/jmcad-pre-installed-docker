@@ -1,5 +1,7 @@
 FROM ubuntu:eoan
 
+MAINTAINER B.K.Jayasundera
+
 # environment variables
 ENV HOME=/root \
     DEBIAN_FRONTEND=noninteractive \
