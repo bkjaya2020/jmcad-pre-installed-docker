@@ -13,7 +13,7 @@ Thanks to Yuriy Mikhaylovskiy owner of JMCAD    YuriyMikhaylovskiy@yahoo.com    
 
 To create a smath container (name jmcad) using bkjaya1952/jmcad-pre-installed-docker
 
-Refer:- https://hub.docker.com/r/bkjaya1952/jmcad-pr-installed-docker
+Refer:-https://hub.docker.com/r/bkjaya1952/jmcad-pre-installed-docker
 
 On the Ubuntu terminal
 
