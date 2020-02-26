@@ -5,28 +5,15 @@ Please refer the following link of the JMCD developers for further details of JM
 
 http://jmcad.sourceforge.net/index_us.shtml
 
-I thought of creating a docker image of pre-installed JMCAD software wich can be used in easyly without interfering the 
-default setup of Linux PC .
-
-I have found a wonderful docker repositoy "solarkennedy/wine-x11-novnc-docker" creared by Kyle Anderson which is ideal for use as a base for application software in docker platform. Threrefore , I have forked solarkennedy/wine-x11-novnc-docker to create my bkjaya1952/jmcad-pre-installed-docker
-
-
-A docker image pre-installed jmcad based on solarkennedy/wine-x11-novnc-docker
-
-
 docker image  bkjaya1952/jmcad - pre-installed with JMCAD-09.157.                                    
-
-forked from Kyle Anderson's  solarkennedy/wine-x11-novnc-docker                                      
 
 JMCAD from https://sourceforge.net/projects/jmcad/files/JMCAD/JMCAD-09.157/JMCAD-09.157.zip/download                                                     
 
 Thanks to Yuriy Mikhaylovskiy owner of JMCAD    YuriyMikhaylovskiy@yahoo.com                         #    
 
-Thanks to  Kyle Anderson and Nicolas SAPA 
-
 To create a smath container (name jmcad) using bkjaya1952/jmcad-pre-installed-docker
 
-Refer:- https://hub.docker.com/r/bkjaya1952/jmcad-pre-installed-docker
+Refer:- https://hub.docker.com/r/bkjaya1952/jmcad-pr-installed-docker
 
 On the Ubuntu terminal
 
