@@ -9,6 +9,7 @@ ENV HOME=/root \
     DISPLAY=:0.0 \
     DISPLAY_WIDTH=1024 \
     DISPLAY_HEIGHT=768
+
 RUN apt-get update && apt-get -y install xvfb x11vnc xdotool git unzip supervisor net-tools fluxbox gnupg2
 RUN apt-get -y full-upgrade && apt-get clean
 ADD supervisord.conf /etc/supervisor/conf.d/supervisord.conf
@@ -36,5 +37,6 @@ COPY bash.bashrc /etc/bash.bashrc
 COPY jmcad.sh /usr/bin/jmcad.sh
 RUN chmod 777 /usr/bin/jmcad.sh \
     && unlink /etc/localtime
+
 EXPOSE 8080
 CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
