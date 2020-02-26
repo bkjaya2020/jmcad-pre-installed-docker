@@ -39,4 +39,4 @@ RUN chmod 777 /usr/bin/jmcad.sh \
     && unlink /etc/localtime
 
 EXPOSE 8080
-CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
+CMD ["/usr/bin/supervisord"]
