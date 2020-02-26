@@ -21,7 +21,7 @@ On the Ubuntu terminal
 
 sudo docker start jmcad
 
-xdg-open http://localhost:8228</code>
+xdg-open http://localhost:8228/vnc_lite.html</code>
 
 Then the jmcad desktop will appear on the web browser at the startup.
 
