@@ -25,8 +25,7 @@ RUN apt update \
 
 WORKDIR /root/
 RUN git clone https://github.com/novnc/noVNC.git /root/noVNC \
-        && git clone https://github.com/novnc/websockify /root/noVNC/utils/websockify \
-        && sed -i -- "s/ps -p/ps -o pid | grep/g" /root/noVNC/utils/launch.sh
+        && git clone https://github.com/novnc/websockify /root/noVNC/utils/websockify
 
 RUN rm -rf /root/noVNC/.git \
 	&& rm -rf /root/noVNC/utils/websockify/.git 
