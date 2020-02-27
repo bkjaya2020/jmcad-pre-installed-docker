@@ -25,9 +25,8 @@ RUN apt update \
 
 WORKDIR /root/
 RUN git clone https://github.com/novnc/noVNC.git /root/noVNC \
-        && git clone https://github.com/novnc/websockify /root/noVNC/utils/websockify
-
-RUN rm -rf /root/noVNC/.git \
+        && git clone https://github.com/novnc/websockify /root/noVNC/utils/websockify \
+        && rm -rf /root/noVNC/.git \
 	&& rm -rf /root/noVNC/utils/websockify/.git 
 
 COPY jmcad.zip /jmcad.zip
