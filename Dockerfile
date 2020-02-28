@@ -1,3 +1,7 @@
+###################################################################################
+# Thanks to Yuriy Mikhaylovskiy the owner of JMCAD ,YuriyMikhaylovskiy@yahoo.com -#
+# -for giving me the permission to create a JMCAD pre-nstalled docker image.      #
+###################################################################################
 FROM ubuntu:eoan
 
 MAINTAINER B.K.Jayasundera
