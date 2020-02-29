@@ -9,7 +9,9 @@ docker image  bkjaya1952/jmcad - pre-installed with JMCAD-09.157.
 
 JMCAD from https://sourceforge.net/projects/jmcad/files/JMCAD/JMCAD-09.157/JMCAD-09.157.zip/download                                                     
 
-Thanks to Yuriy Mikhaylovskiy owner of JMCAD    YuriyMikhaylovskiy@yahoo.com                         #    
+Thanks to Yuriy Mikhaylovskiy owner of JMCAD    YuriyMikhaylovskiy@yahoo.com                         
+
+Thanks to Creator of noVNC : Joel Martin (github@martintribe.org).     https://novnc.com/info.html           
 
 To create a smath container (name jmcad) using bkjaya1952/jmcad-pre-installed-docker
 
