@@ -1,6 +1,8 @@
 ###################################################################################
 # Thanks to Yuriy Mikhaylovskiy the owner of JMCAD ,YuriyMikhaylovskiy@yahoo.com -#
 # -for giving me the permission to create a JMCAD pre-nstalled docker image.      #
+# Thanks to Creator of noVNC : Joel Martin (github@martintribe.org).              #
+# https://novnc.com/info.html                                                     #
 ###################################################################################
 FROM ubuntu:eoan
 
