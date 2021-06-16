@@ -4,7 +4,7 @@
 # Thanks to Creator of noVNC : Joel Martin (github@martintribe.org).              #
 # https://novnc.com/info.html                                                     #
 ###################################################################################
-FROM ubuntu:eoan
+FROM ubuntu:bionic
 
 MAINTAINER B.K.Jayasundera
 
