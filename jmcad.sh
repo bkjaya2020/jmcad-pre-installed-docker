@@ -1,3 +1,3 @@
 #!/bin/bash
 cd ~/jmcad
-./JMCAD.jar
+java -jar JMCAD.jar
